@@ -6,6 +6,8 @@ The plugin mimics the actions taken by the change filament action built into
 Marlin. That feature is not available on all printers and also requires using
 the control box to use, instead of doing everything in OctoPrint.
 
+![previewimage](https://github.com/mikekscholz/Change_Filament/raw/master/screenshots/change_filament.png)
+
 ## Setup
 
 Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager)
