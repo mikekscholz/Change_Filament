@@ -70,7 +70,7 @@ $(function() {
 						'G0 Y' + settings.y_park() + ' X' + settings.x_park() + ' F' + settings.park_speed(),
 						'M117 Nozzle parked'
 						],
-						'customClass': 'btn', 'additionalClasses': 'changefilament-park', 'name': ' Park' },
+						'customClass': 'btn', 'additionalClasses': 'changefilament-park', 'name': ' Park'},
 					{'commands': [
 						'M117 Unloading filament',
 						'M83',
@@ -101,6 +101,6 @@ $(function() {
 
 	OCTOPRINT_VIEWMODELS.push({
 		construct: Change_filamentViewModel,
-		dependencies: ["settingsViewModel", "controlViewModel"]
+		dependencies: [ "settingsViewModel", "controlViewModel" ]
 	});
 });
