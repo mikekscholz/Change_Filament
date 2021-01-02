@@ -70,7 +70,7 @@ $(function() {
 						'G0 Y' + settings.y_park() + ' X' + settings.x_park() + ' F' + settings.park_speed(),
 						'M117 Nozzle parked'
 						],
-						'customClass': 'btn', 'additionalClasses': 'changefilament-park', 'name': ' Park' },
+						'customClass': 'btn', 'additionalClasses': 'changefilament-park', 'name': ' Park'},
 					{'commands': [
 						'M117 Unloading filament',
 						'M83',
@@ -89,7 +89,7 @@ $(function() {
 					{'commands': [
 						'M600'
 						],
-						'customClass': 'btn-danger', 'additionalClasses': 'changefilament-m600', 'name': ' M600'},
+						'customClass': 'btn', 'additionalClasses': ' btn-danger changefilament-m600', 'name': ' M600'},
 					{'output': 'WARNING: Preheat first! Refresh page after changing settings.'},
 					{'output': 'M600 requires special support in Marlin and must be completed using the control box.'}
 				]
@@ -101,6 +101,6 @@ $(function() {
 
 	OCTOPRINT_VIEWMODELS.push({
 		construct: Change_filamentViewModel,
-		dependencies: ["settingsViewModel", "controlViewModel"]
+		dependencies: [ "settingsViewModel", "controlViewModel" ]
 	});
 });
