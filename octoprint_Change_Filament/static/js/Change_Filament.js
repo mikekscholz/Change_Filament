@@ -89,7 +89,7 @@ $(function() {
 					{'commands': [
 						'M600'
 						],
-						'customClass': 'btn-danger', 'additionalClasses': 'changefilament-m600', 'name': ' M600'},
+						'customClass': 'btn', 'additionalClasses': ' btn-danger changefilament-m600', 'name': ' M600'},
 					{'output': 'WARNING: Preheat first! Refresh page after changing settings.'},
 					{'output': 'M600 requires special support in Marlin and must be completed using the control box.'}
 				]
