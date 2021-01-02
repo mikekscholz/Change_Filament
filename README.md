@@ -5,11 +5,6 @@ This plugin makes it simple to change filament.
 The plugin mimics the actions taken by the change filament action built into
 Marlin. That feature is not available on all printers and also requires using
 the control box to use, instead of doing everything in OctoPrint.
-# Fork Info
-
-Add CSS, made the button icons and buttons themselves compatible with theming plugins and updated icons to font awesome 5
-
-![previewimage](https://github.com/mikekscholz/Change_Filament/raw/master/screenshots/change_filament.png)
 
 ## Setup
 
